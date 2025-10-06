@@ -1,4 +1,4 @@
-# IMDb flow: search, pick first result, verify title, cast, and person"
+## IMDb flow: search, pick first result, verify title, cast, and person
 
 1. Open imdb.com
 2. Search for "QA" with the search bar
