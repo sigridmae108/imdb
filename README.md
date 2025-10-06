@@ -16,4 +16,4 @@ Note: modified the original scenario (step 3) because it is not possible to filt
 The dropdown could also contain cast names or events which pass the search criteria.
 This would lead to unstable test when the data changes.
 
-Run tets: ./gradlew test
+Run test: ./gradlew test
