@@ -2,7 +2,7 @@
 
 1. Open imdb.com
 2. Search for "QA" with the search bar
-<del>3. When dropdown opens, save the name of the first title</del>
+~~3. When dropdown opens, save the name of the first title~~
 3. Submit the search and save the title of the first movie on the result page
 4. Click on the first title
 5. Verify that page title matches the one saved from the dropdown
