@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class BaseTest {
 
-    @BeforeMethod(alwaysRun = true)
+    @BeforeMethod
     public void setUp() {
         Configuration.browser = System.getProperty("browser", "firefox");
         Configuration.baseUrl = System.getProperty("baseUrl", "https://www.imdb.com");
@@ -21,7 +21,7 @@ public class BaseTest {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(true));
     }
 
-    @AfterMethod(alwaysRun = true)
+    @AfterMethod
     public void tearDown() {
         closeWebDriver();
     }
